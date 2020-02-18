@@ -29,7 +29,7 @@ public class AkinoExplorer implements Runnable {
         JFrame frame = new JFrame("AkinoFileExplorer");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        File fileRoot = new File("/home/idaho/");
+        File fileRoot = new File("/home");
         DefaultMutableTreeNode root = new DefaultMutableTreeNode(new FileNode(fileRoot));
         DefaultTreeModel treeModel = new DefaultTreeModel(root);
 
